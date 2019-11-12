@@ -10,4 +10,7 @@ for($i = 0; $i < count($arreglo); $i++){
     echo $arreglo[$i]. "<br>";
 }
 
+foreach($arreglo as $key => $value){
+    echo "indice: ". $key. " - ". $value. "<br>";
+}
 ?>
